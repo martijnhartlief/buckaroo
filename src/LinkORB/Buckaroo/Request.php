@@ -103,16 +103,16 @@ class Request
 		}
 		switch($type) {
 			case 'invoiceinfo':
-				$this->soapClient->InvoiceInfo($TransactionRequest);
+				return $this->soapClient->InvoiceInfo($TransactionRequest);
 				break;
 			case 'transaction':
-				$this->soapClient->TransactionRequest($TransactionRequest);
+				return $this->soapClient->TransactionRequest($TransactionRequest);
 				break;
             case 'transactionstatus':
-                $this->soapClient->TransactionStatus($TransactionRequest);
+                return $this->soapClient->TransactionStatus($TransactionRequest);
                 break;
 			case 'refundinfo':
-				$this->soapClient->RefundInfo($TransactionRequest);
+				return $this->soapClient->RefundInfo($TransactionRequest);
 				break;
 		}
 
