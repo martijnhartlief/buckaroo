@@ -1,5 +1,5 @@
 {
-    "name": "linkorb/buckaroo",
+    "name": "martijnhartlief/buckaroo",
     "description": "Buckaroo BPE3 API client for PHP. PSR-0 Compliant.",
     "homepage": "http://www.github.com/linkorb/buckaroo",
     "keywords": ["php", "api", "buckaroo", "psp", "payment"],
